@@ -20,7 +20,7 @@ operators.forEach(function (screen) {
 });
 
 function addOperator(operator) {
-  screen.textContent = screen.textContent + operator;
+  screen.textContent += operator;
 }
 
 equals.addEventListener("click", function () {
