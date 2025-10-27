@@ -3,6 +3,7 @@ const digits = document.querySelectorAll(".digit");
 const operators = document.querySelectorAll(".operator");
 const equals = document.querySelector(".equal_sign");
 
+//function for inputting digits
 const first = digits.forEach(function (screen) {
   screen.addEventListener("click", function () {
     addDigit(screen.textContent);
@@ -13,6 +14,7 @@ function addDigit(digit) {
   screen.textContent += digit;
 }
 
+//function for inputting operators
 operators.forEach(function (screen) {
   screen.addEventListener("click", function () {
     addOperator(screen.textContent);
