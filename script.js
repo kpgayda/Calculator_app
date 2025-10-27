@@ -10,7 +10,7 @@ const first = digits.forEach(function (screen) {
 });
 
 function addDigit(digit) {
-  screen.textContent = screen.textContent + digit;
+  screen.textContent += digit;
 }
 
 operators.forEach(function (screen) {
